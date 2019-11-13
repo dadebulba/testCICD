@@ -8,6 +8,6 @@ services:
 
 after_success:
   - docker login -u $DOCKER_USER -p $DOCKER_PASS
-  - docker build -f Dockerfile -t dadebulba/test_ci_cd:$TRAVIS_BUILD_NUMBER .
-  - docker push dadebulba/test_ci_cd:$TRAVIS_BUILD_NUMBER
+  - docker build -f Dockerfile -t dadebulba/test_ci_cd .
+  - docker push dadebulba/test_ci_cd
 
