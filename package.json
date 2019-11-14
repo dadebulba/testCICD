@@ -19,6 +19,7 @@
   "homepage": "https://github.com/dadebulba/testCICD#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "prom-client": "^11.5.3"
   }
 }
